@@ -1,0 +1,31 @@
+@keyframes hamburger_plus{
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    100%{
+        opacity: 0;
+        transform: scale(1.7);
+    }
+}
+@keyframes text{
+    100%{
+        color: wheat;
+    }
+}
+@keyframes text_name{
+    100%{
+        color: rgba(192, 192, 214, 0.849);
+        font-weight: 700;
+    }
+}
+/* @keyframes text_animation{
+    50%{
+        width: 100%;
+        left: 0;
+    }
+    100%{
+        width: 0;
+        left: 100%;
+    }
+} */
